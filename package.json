@@ -1,0 +1,40 @@
+{
+  "name": "smallest-script-loader",
+  "version": "1.0.0",
+  "description": "Smallest promise-based script loader with cache support",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzinas/smallest-script-loader.git"
+  },
+  "keywords": [
+    "script",
+    "loader",
+    "tiny",
+    "small",
+    "smallest",
+    "promise",
+    "cache"
+  ],
+  "author": "Vitor Buzinaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buzinas/smallest-script-loader/issues"
+  },
+  "homepage": "https://github.com/buzinas/smallest-script-loader#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.23.0"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "transform-es2015-modules-umd"
+      ]
+    ]
+  }
+}
